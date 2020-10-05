@@ -38,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,AddNewStudent.class);
         startActivity(i);
     }
+
+    public void showMarkAttendance(View v){
+        Intent i = new Intent(this,MarkAttendence.class);
+        startActivity(i);
+    }
 }
