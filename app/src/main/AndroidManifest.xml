@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddNewStudent"></activity>
+        <activity android:name=".AddNewStudent" />
         <activity android:name=".Reports" />
         <activity android:name=".BatchDetails" />
         <activity android:name=".AddNewBatch" />
