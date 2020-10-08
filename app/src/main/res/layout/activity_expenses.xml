@@ -98,19 +98,19 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="37dp"
-                android:background="@android:color/holo_blue_dark"
-                android:text="            Paintings                                    1400"
-                android:textStyle="bold" />
-
-            <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="37dp"
-                android:background="@android:color/holo_blue_bright"
+                android:background="@android:color/holo_blue_dark"
                 android:text="            Type settings                              600"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:background="@android:color/holo_blue_bright"
+                android:text="            Paintings                                    1400"
                 android:textStyle="bold" />
 
             <TextView
@@ -118,37 +118,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="37dp"
                 android:background="?android:attr/colorBackground"
-                android:text="" />
-
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:background="?android:attr/colorFocusedHighlight"
-                android:text="            Rental                                           200"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView116"
-                android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:background="@android:color/holo_orange_dark"
-                android:text="            Water Bill                                   2900"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:background="@android:color/holo_orange_light"
-                android:text="            Electricity                                  1200"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView1333"
-                android:layout_width="match_parent"
-                android:layout_height="37dp"
-                android:background="@android:color/white"
                 android:text="" />
 
             <TextView
@@ -176,10 +145,10 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView20"
+                android:id="@+id/textView1333"
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:background="@android:color/background_light"
+                android:layout_height="37dp"
+                android:background="@android:color/white"
                 android:text="" />
 
             <TextView
@@ -204,6 +173,37 @@
                 android:layout_height="37dp"
                 android:background="@android:color/holo_orange_light"
                 android:text="            Tax NPF                                        700"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@android:color/background_light"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@android:color/holo_purple"
+                android:text="            Rental                                           200"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/design_default_color_primary"
+                android:text="            Water Bill                                   2900"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@android:color/holo_blue_light"
+                android:text="            Electricity                                  1200"
                 android:textStyle="bold" />
 
             <TextView

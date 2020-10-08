@@ -20,7 +20,7 @@ public class FeeManagementDashboard extends AppCompatActivity {
     }
 
     public void showFeeReport(View v){
-        Intent i = new Intent(this,FeeReport.class);
+        Intent i = new Intent(this,ShowStudentsInFeeReport.class);
         startActivity(i);
     }
 

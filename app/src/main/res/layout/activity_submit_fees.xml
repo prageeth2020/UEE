@@ -188,6 +188,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/holo_green_light"
+                android:onClick="showDashboard"
                 android:text="Submit Fees"
                 android:textStyle="bold" />
         </LinearLayout>

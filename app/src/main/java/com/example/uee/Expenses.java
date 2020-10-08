@@ -3,7 +3,10 @@ package com.example.uee;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 
 import java.util.ArrayList;
@@ -11,7 +14,8 @@ import java.util.List;
 
 public class Expenses extends AppCompatActivity {
     private Spinner spinner4, spinner2;
-
+    Button button16;
+    LinearLayout linearLayout3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +23,18 @@ public class Expenses extends AppCompatActivity {
         setContentView(R.layout.activity_expenses);
         addItemsOnSpinner2();
         addItemsOnSpinner4();
+        button16 = findViewById(R.id.button2);
+        linearLayout3 = findViewById(R.id.layout1);
+
+        button16.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if(linearLayout3.getVisibility()==View.VISIBLE){
+                    linearLayout3.setVisibility(View.GONE);
+                }else{
+                    linearLayout3.setVisibility(View.VISIBLE);
+                }
+            }
+        });
     }
 
     public void addItemsOnSpinner2() {

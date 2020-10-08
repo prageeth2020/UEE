@@ -13,19 +13,20 @@ import android.widget.Spinner;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShowStudentsInFeeReminder extends AppCompatActivity {
+public class ShowStudentsInFeeReport extends AppCompatActivity {
     private Spinner spinner1, spinner2;
-    LinearLayout linearLayout3;
     Button button16;
+    LinearLayout linearLayout3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_show_students_in_fee_reminder);
+        setContentView(R.layout.activity_show_students_in_fee_report);
         addItemsOnSpinner1();
         addItemsOnSpinner2();
         button16 = findViewById(R.id.button16);
         linearLayout3 = findViewById(R.id.linearLayout3);
+
 
 
         button16.setOnClickListener(new View.OnClickListener() {
@@ -39,8 +40,8 @@ public class ShowStudentsInFeeReminder extends AppCompatActivity {
         });
     }
 
-    public void showReminder(View v){
-        Intent i = new Intent(this,ShowStudentsInFeeReminder.class);
+    public void showFeeReport(View v){
+        Intent i = new Intent(this,FeeReport.class);
         startActivity(i);
     }
 
@@ -82,10 +83,5 @@ public class ShowStudentsInFeeReminder extends AppCompatActivity {
                 android.R.layout.simple_spinner_item, list);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner2.setAdapter(dataAdapter);
-    }
-
-    public void showFeeReminder(View v){
-        Intent i = new Intent(this,FeeReminder.class);
-        startActivity(i);
     }
 }
