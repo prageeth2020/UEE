@@ -23,4 +23,9 @@ public class FeeManagementDashboard extends AppCompatActivity {
         Intent i = new Intent(this,FeeReport.class);
         startActivity(i);
     }
+
+    public void showFeeReminder(View v){
+        Intent i = new Intent(this,ShowStudentsInFeeReminder.class);
+        startActivity(i);
+    }
 }

@@ -28,6 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_green_light"
+            android:onClick="showAttendanceReport"
             android:text="Attendance" />
     </LinearLayout>
 
@@ -53,6 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_purple"
+            android:onClick="showFeesReport"
             android:text="Fees" />
     </LinearLayout>
 
@@ -78,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_blue_bright"
+            android:onClick="showIncomeReport"
             android:text="Incomes" />
     </LinearLayout>
 
@@ -103,6 +106,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_red_light"
+            android:onClick="showExpenseReport"
             android:text="Expenses" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
