@@ -24,12 +24,12 @@ public class ReportFees extends AppCompatActivity {
         spinner1 = (Spinner) findViewById(R.id.spinner1);
         List<String> list = new ArrayList<String>();
         list.add("");
-        list.add("B001");
-        list.add("B002");
-        list.add("B003");
-        list.add("B004");
-        list.add("B005");
-        list.add("B006");
+        list.add("   B001");
+        list.add("   B002");
+        list.add("   B003");
+        list.add("   B004");
+        list.add("   B005");
+        list.add("   B006");
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, list);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
