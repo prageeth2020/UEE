@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class EditBatchDetails extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class EditBatchDetails extends AppCompatActivity {
     }
 
     public void viewBatch(View v){
+        Toast.makeText(this, "Batch Details Updated Successfully", Toast.LENGTH_LONG).show();
         Intent i = new Intent(this,ViewBatchDetails.class);
         startActivity(i);
     }

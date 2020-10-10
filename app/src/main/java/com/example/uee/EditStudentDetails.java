@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class EditStudentDetails extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class EditStudentDetails extends AppCompatActivity {
     }
 
     public void viewStudent(View v){
+        Toast.makeText(this, "Student Details Updated Successfully", Toast.LENGTH_LONG).show();
         Intent i = new Intent(this,ViewStudentDetails.class);
         startActivity(i);
     }
