@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class ViewStudentDetails extends AppCompatActivity {
 
@@ -16,6 +17,12 @@ public class ViewStudentDetails extends AppCompatActivity {
 
     public void viewOneStudent(View v){
         Intent i = new Intent(this,OneStudentDetails.class);
+        startActivity(i);
+    }
+
+    public void deleteStudent(View v){
+        Toast.makeText(this, "Student Details Deleted Successfully", Toast.LENGTH_LONG).show();
+        Intent i = new Intent(this,AddNewStudent.class);
         startActivity(i);
     }
 }
