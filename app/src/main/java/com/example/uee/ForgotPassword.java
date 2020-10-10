@@ -16,7 +16,7 @@ public class ForgotPassword extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgot_password);
 
-        buttonSend=findViewById(R.id.btnLogin);
+        buttonSend=findViewById(R.id.btnSend);
         buttonSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
