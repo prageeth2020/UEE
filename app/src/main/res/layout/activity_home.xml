@@ -41,7 +41,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageBtnLogout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
