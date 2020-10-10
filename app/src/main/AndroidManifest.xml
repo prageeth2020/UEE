@@ -20,9 +20,6 @@
         <activity android:name=".ReportIncome" />
         <activity android:name=".ReportFees" />
         <activity android:name=".ReportAttendance" />
-        <activity
-            android:name=".ui.login.ReportAttendance"
-            android:label="@string/title_activity_report_attendance" />
         <activity android:name=".ShowStudentsInFeeReminder" />
         <activity android:name=".FeeReminder" />
         <activity android:name=".AddNewStudent" />
@@ -37,7 +34,13 @@
         <activity android:name=".SubmitFees" />
         <activity android:name=".ShowStudents" />
         <activity android:name=".MarkAttendence" />
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Home" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".StartScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
