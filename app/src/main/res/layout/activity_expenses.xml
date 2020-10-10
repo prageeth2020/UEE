@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:padding="16sp"
     android:scrollbarSize="10sp"
-    tools:context=".Ex">
+    tools:context=".Expenses">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
