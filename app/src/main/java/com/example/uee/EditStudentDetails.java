@@ -6,17 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class AddNewBatch extends AppCompatActivity {
+public class EditStudentDetails extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_new_batch);
+        setContentView(R.layout.activity_edit_student_details);
     }
 
-    public void viewBatch(View v){
-        Intent i = new Intent(this,ViewBatchDetails.class);
+    public void viewStudent(View v){
+        Intent i = new Intent(this,ViewStudentDetails.class);
         startActivity(i);
     }
-
 }

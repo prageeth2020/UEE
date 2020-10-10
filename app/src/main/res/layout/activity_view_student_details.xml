@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewStudentDetails">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="95dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        app:srcCompat="@mipmap/i13" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="345dp"
+        android:layout_height="372dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView201"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:onClick="viewOneStudent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.032"
+                app:srcCompat="@mipmap/i5" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="259dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="  Student001 - Dumindu Deshan"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox111"
+                android:layout_width="wrap_content"
+                android:layout_height="63dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView20q11"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:onClick="viewOneStudent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.032"
+                app:srcCompat="@mipmap/i5" />
+
+            <TextView
+                android:id="@+id/textView291"
+                android:layout_width="259dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="  Student002 - Pawani Nithimini"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxq111"
+                android:layout_width="wrap_content"
+                android:layout_height="63dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView20111"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:onClick="viewOneStudent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.032"
+                app:srcCompat="@mipmap/i5" />
+
+            <TextView
+                android:id="@+id/textView292"
+                android:layout_width="259dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="   Student006 - Amal Gamage "
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxa111"
+                android:layout_width="wrap_content"
+                android:layout_height="63dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewq2011"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:onClick="viewOneStudent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.032"
+                app:srcCompat="@mipmap/i5" />
+
+            <TextView
+                android:id="@+id/textView293"
+                android:layout_width="259dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="   Student009 - Kamal Heshan"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxzc111"
+                android:layout_width="wrap_content"
+                android:layout_height="63dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView20z11"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:onClick="viewOneStudent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.032"
+                app:srcCompat="@mipmap/i5" />
+
+            <TextView
+                android:id="@+id/textView294"
+                android:layout_width="259dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="   Student015 - Nethumi Dias"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxz111"
+                android:layout_width="wrap_content"
+                android:layout_height="63dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2011"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:onClick="viewOneStudent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.032"
+                app:srcCompat="@mipmap/i5" />
+
+            <TextView
+                android:id="@+id/textView295"
+                android:layout_width="259dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="   Student016 - Viduni Alwis"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxc111"
+                android:layout_width="wrap_content"
+                android:layout_height="63dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="111dp"
+        android:layout_height="39dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.969">
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="42dp"
+            android:layout_height="37dp"
+            android:layout_weight="1"
+            android:onClick="viewOneStudent"
+            app:srcCompat="@mipmap/i3" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

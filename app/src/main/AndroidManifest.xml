@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ShowStudentsInFeeReport"></activity>
+        <activity android:name=".OneBatchDetail"></activity>
+        <activity android:name=".EditBatchDetails" />
+        <activity android:name=".OneStudentDetails" />
+        <activity android:name=".EditStudentDetails" />
+        <activity android:name=".ViewStudentDetails" />
+        <activity android:name=".ViewBatchDetails" />
+        <activity android:name=".ShowStudentsInFeeReport" />
         <activity android:name=".ReportExpenses" />
         <activity android:name=".ReportIncome" />
         <activity android:name=".ReportFees" />

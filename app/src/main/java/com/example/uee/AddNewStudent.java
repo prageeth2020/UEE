@@ -2,7 +2,9 @@ package com.example.uee;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -33,5 +35,15 @@ public class AddNewStudent extends AppCompatActivity {
                 android.R.layout.simple_spinner_item, list);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(dataAdapter);
+    }
+
+    public void viewStudent(View v){
+        Intent i = new Intent(this,ViewStudentDetails.class);
+        startActivity(i);
+    }
+
+    public void addStudent(View v){
+        Intent i = new Intent(this,ViewStudentDetails.class);
+        startActivity(i);
     }
 }

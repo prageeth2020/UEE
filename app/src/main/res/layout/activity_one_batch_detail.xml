@@ -4,7 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddNewBatch">
+    tools:context=".OneBatchDetail">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="157dp"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="Batch 001"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -20,15 +35,15 @@
 
     <LinearLayout
         android:id="@+id/linearLayout5"
-        android:layout_width="296dp"
-        android:layout_height="232dp"
+        android:layout_width="244dp"
+        android:layout_height="222dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintHorizontal_bias="0.628"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452">
+        app:layout_constraintVertical_bias="0.643">
 
         <TextView
             android:id="@+id/textView3"
@@ -37,12 +52,11 @@
             android:text="Batch Name"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName"
+        <TextView
+            android:id="@+id/textView35"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:layout_height="37dp"
+            android:text="B001 - Batch 001" />
 
         <TextView
             android:id="@+id/textView5"
@@ -51,12 +65,11 @@
             android:text="Teacher's Name"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName2"
+        <TextView
+            android:id="@+id/textView36"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:layout_height="41dp"
+            android:text="Mr.Sunil Gamage" />
 
         <TextView
             android:id="@+id/textView6"
@@ -65,38 +78,12 @@
             android:text="Time"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName3"
+        <TextView
+            android:id="@+id/textView37"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:text="8.30-10.30" />
+
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="356dp"
-        android:layout_height="117dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.964">
-
-        <Button
-            android:id="@+id/button14"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/holo_green_light"
-            android:onClick="viewBatch"
-            android:text="Add Batch Details" />
-
-        <Button
-            android:id="@+id/button15"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/holo_blue_bright"
-            android:onClick="viewBatch"
-            android:text="View Batch Details" />
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
