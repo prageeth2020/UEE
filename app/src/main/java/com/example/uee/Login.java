@@ -27,7 +27,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(Login.this,"Login Successfully!",Toast.LENGTH_LONG).show();
-                Intent intent=new Intent(getApplicationContext(),Home.class);
+                Intent intent=new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(intent);
             }
         });
