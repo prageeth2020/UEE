@@ -14,7 +14,8 @@
         android:gravity="center_horizontal"
         android:text="Register"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -22,8 +23,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="375dp"
-        android:layout_height="550dp"
+        android:layout_width="336dp"
+        android:layout_height="541dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +36,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Institute Name"
-            android:textSize="24sp" />
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/txtName"
@@ -49,7 +51,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Email Address"
-            android:textSize="24sp" />
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/txtEmail"
@@ -63,7 +66,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Password"
-            android:textSize="24sp" />
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/txtPassword"
@@ -77,7 +81,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Mobile Number"
-            android:textSize="24sp" />
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/txtMobile"
@@ -94,11 +99,13 @@
                 android:id="@+id/linkLog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
+                android:layout_marginTop="28dp"
+                android:onClick="showLogin"
                 android:text="Already Registerd? Sign In"
+                android:textColor="@color/design_default_color_error"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintHorizontal_bias="0.502"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
 
@@ -106,13 +113,12 @@
                 android:id="@+id/btnRegister"
                 android:layout_width="236dp"
                 android:layout_height="56dp"
-                android:layout_marginTop="16dp"
-                android:background="@android:color/holo_orange_light"
+                android:layout_marginTop="60dp"
+                android:background="@android:color/holo_blue_light"
                 android:text="Register"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.496"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>

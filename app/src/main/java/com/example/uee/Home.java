@@ -16,13 +16,5 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        imgbuttonLogout=findViewById(R.id.imageBtnLogout);
-        imgbuttonLogout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(getApplicationContext(),StartScreen.class);
-                startActivity(intent);
-            }
-        });
     }
 }

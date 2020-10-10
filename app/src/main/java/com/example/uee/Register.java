@@ -27,12 +27,17 @@ public class Register extends AppCompatActivity {
             }
         });
 
-        linkLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent loginIntent=new Intent(getApplicationContext(),Login.class);
-                startActivity(loginIntent);
-            }
-        });
+//        linkLogin.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent loginIntent=new Intent(getApplicationContext(),Login.class);
+//                startActivity(loginIntent);
+//            }
+//        });
+    }
+
+    public void showLogin(View v){
+        Intent i = new Intent(this,Login.class);
+        startActivity(i);
     }
 }
