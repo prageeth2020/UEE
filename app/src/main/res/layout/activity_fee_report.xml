@@ -6,6 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".FeeReport">
 
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="422dp"
+        android:layout_height="45dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center_horizontal"
+        android:text="Fee Report"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="168dp"
@@ -15,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.068"
+        app:layout_constraintVertical_bias="0.134"
         app:srcCompat="@mipmap/i12" />
 
     <TableLayout
@@ -29,7 +47,7 @@
         app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.885">
+        app:layout_constraintVertical_bias="1.0">
 
         <TableRow
             android:background="#0079D6"
@@ -39,25 +57,33 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Amount" />
+                android:text="Amount"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Last Payment" />
+                android:text="Last Payment"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Payment Date" />
+                android:text="Payment Date"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Paid Date" />
+                android:text="Paid Date"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -233,6 +259,7 @@
                 android:layout_weight="1"
                 android:text="20-05-20" />
         </TableRow>
+
         <TableRow
             android:background="#DAE8FC"
             android:padding="5dp">
@@ -261,6 +288,7 @@
                 android:layout_weight="1"
                 android:text="20-04-20" />
         </TableRow>
+
         <TableRow
             android:background="#DAE8FC"
             android:padding="5dp">
@@ -297,11 +325,12 @@
         android:layout_height="53dp"
         android:gravity="center"
         android:text="Student 001"
+        android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265" />
+        app:layout_constraintVertical_bias="0.332" />
 </androidx.constraintlayout.widget.ConstraintLayout>

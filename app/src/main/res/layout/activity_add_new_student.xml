@@ -43,7 +43,7 @@
             android:onClick="addStudent"
             android:text="Add Student Details"
             android:textColor="@color/design_default_color_on_secondary"
-            android:textSize="18sp"
+            android:textSize="14sp"
             android:textStyle="bold" />
 
         <Button
@@ -54,7 +54,7 @@
             android:onClick="viewStudent"
             android:text="View Student Details"
             android:textColor="@color/design_default_color_on_secondary"
-            android:textSize="18sp"
+            android:textSize="14sp"
             android:textStyle="bold" />
     </LinearLayout>
 

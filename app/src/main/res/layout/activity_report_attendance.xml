@@ -34,6 +34,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="37dp"
                 android:text="      Select Batch"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <Spinner
@@ -46,6 +48,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="46dp"
                 android:text="      Select Date"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <CalendarView
@@ -59,6 +63,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/holo_orange_light"
                 android:text="Show Attendance"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TableLayout
@@ -84,13 +89,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="   Student Number" />
+                        android:text="   Student Number"
+                        android:textColor="@color/design_default_color_on_secondary"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Status" />
+                        android:text="Status"
+                        android:textColor="@color/design_default_color_on_secondary"
+                        android:textStyle="bold" />
                 </TableRow>
 
                 <TableRow

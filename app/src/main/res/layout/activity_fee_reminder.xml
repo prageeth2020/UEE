@@ -6,6 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".FeeReminder">
 
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="422dp"
+        android:layout_height="45dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center_horizontal"
+        android:text="Fee Reminder"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <Button
         android:id="@+id/button18"
         android:layout_width="123dp"

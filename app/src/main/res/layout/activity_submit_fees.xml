@@ -41,6 +41,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="      Name"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -49,6 +51,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="       Piyumi Dayarathna"
+                    android:textColor="@color/design_default_color_on_secondary"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -64,6 +67,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="      Payment Date"
+                    android:textColor="@color/design_default_color_on_secondary"
                     android:textStyle="bold" />
 
                 <TextView
@@ -72,6 +76,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="      2020-11-01"
+                    android:textColor="@color/design_default_color_on_secondary"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -87,6 +92,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="      Batch"
+                    android:textColor="@color/design_default_color_on_secondary"
                     android:textStyle="bold" />
 
                 <TextView
@@ -95,6 +101,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="      B003"
+                    android:textColor="@color/design_default_color_on_secondary"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -109,6 +116,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="      Paid Till"
+                    android:textColor="@color/design_default_color_on_secondary"
                     android:textStyle="bold" />
 
                 <TextView
@@ -117,6 +125,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="      2020-11-02"
+                    android:textColor="@color/design_default_color_on_secondary"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -131,6 +140,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="      Fee Amount"
+                    android:textColor="@color/design_default_color_on_secondary"
                     android:textStyle="bold" />
 
                 <TextView
@@ -139,6 +149,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="      1200.00"
+                    android:textColor="@color/design_default_color_on_secondary"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -153,6 +164,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="      Pay Till"
+                    android:textColor="@color/design_default_color_on_secondary"
                     android:textStyle="bold" />
 
                 <CalendarView
@@ -190,6 +202,7 @@
                 android:background="@android:color/holo_green_light"
                 android:onClick="showDashboard"
                 android:text="Submit Fees"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
         </LinearLayout>
 

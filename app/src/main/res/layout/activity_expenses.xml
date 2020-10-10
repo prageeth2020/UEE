@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:padding="16sp"
     android:scrollbarSize="10sp"
-    tools:context=".MarkAttendence">
+    tools:context=".Ex">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,6 +25,7 @@
                 android:layout_width="164dp"
                 android:layout_height="match_parent"
                 android:text="Select Year"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <Spinner
@@ -45,6 +46,7 @@
                 android:layout_height="59dp"
                 android:layout_weight="1"
                 android:text="Select Month"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <Spinner
@@ -72,6 +74,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/holo_orange_light"
                 android:text="Show Expenses"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -95,6 +98,7 @@
                 android:layout_height="37dp"
                 android:background="@color/design_default_color_primary"
                 android:text="            Maintainance                               400"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -103,6 +107,7 @@
                 android:layout_height="37dp"
                 android:background="@android:color/holo_blue_dark"
                 android:text="            Type settings                              600"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -111,6 +116,7 @@
                 android:layout_height="37dp"
                 android:background="@android:color/holo_blue_bright"
                 android:text="            Paintings                                    1400"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -126,6 +132,7 @@
                 android:layout_height="36dp"
                 android:background="@color/colorPrimaryDark"
                 android:text="            Car Park                                       800 "
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -134,6 +141,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_green_dark"
                 android:text="            Expense TP                                 600"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -142,6 +150,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_green_light"
                 android:text="            Expense PI                                  700"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -157,6 +166,7 @@
                 android:layout_height="37dp"
                 android:background="@android:color/holo_red_light"
                 android:text="            Tax LMI                                       1400"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -165,6 +175,7 @@
                 android:layout_height="37dp"
                 android:background="@android:color/holo_orange_dark"
                 android:text="            Tax PG                                          800"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -173,6 +184,7 @@
                 android:layout_height="37dp"
                 android:background="@android:color/holo_orange_light"
                 android:text="            Tax NPF                                        700"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -188,6 +200,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_purple"
                 android:text="            Rental                                           200"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -196,6 +209,7 @@
                 android:layout_height="36dp"
                 android:background="@color/design_default_color_primary"
                 android:text="            Water Bill                                   2900"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -204,6 +218,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_blue_light"
                 android:text="            Electricity                                  1200"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -219,6 +234,7 @@
                 android:layout_height="36dp"
                 android:background="@color/design_default_color_secondary"
                 android:text="            Other Expenses                         560"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
         </LinearLayout>

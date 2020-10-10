@@ -25,6 +25,7 @@
                 android:layout_width="164dp"
                 android:layout_height="match_parent"
                 android:text="Select Year"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <Spinner
@@ -45,6 +46,7 @@
                 android:layout_height="59dp"
                 android:layout_weight="1"
                 android:text="Select Month"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <Spinner
@@ -72,6 +74,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/holo_orange_light"
                 android:text="Show Incomes"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -81,7 +84,7 @@
             android:layout_width="350dp"
             android:layout_height="700dp"
             android:orientation="vertical"
-            android:visibility="gone"
+            android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.491"
@@ -95,6 +98,7 @@
                 android:layout_height="37dp"
                 android:background="@color/design_default_color_primary"
                 android:text="            Tuition Fee Batch B001                400"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold">
 
             </TextView>
@@ -105,6 +109,7 @@
                 android:layout_height="37dp"
                 android:background="@android:color/holo_blue_dark"
                 android:text="            Tuition Fee Batch B002                400"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold">
 
             </TextView>
@@ -115,6 +120,7 @@
                 android:layout_height="37dp"
                 android:background="@android:color/holo_blue_bright"
                 android:text="            Tuition Fee Batch B003                400"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -129,6 +135,7 @@
                 android:layout_height="37dp"
                 android:background="?android:attr/colorSecondary"
                 android:text="            Tuition Fee Batch B111                900"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -137,6 +144,7 @@
                 android:layout_height="37dp"
                 android:background="@android:color/holo_green_dark"
                 android:text="            Tuition Fee Batch B222                900"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -145,6 +153,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_green_light"
                 android:text="            Tuition Fee Batch B333                900"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -159,6 +168,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_red_light"
                 android:text="            Tuition Fee Batch B800                500"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -167,6 +177,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_orange_dark"
                 android:text="            Tuition Fee Batch B801                500"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -175,6 +186,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_orange_light"
                 android:text="            Tuition Fee Batch B802                500"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -189,6 +201,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_purple"
                 android:text="            Tuition Fee Batch B605                300"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -197,6 +210,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_blue_light"
                 android:text="            Tuition Fee Batch B606                300"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -205,6 +219,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_blue_bright"
                 android:text="            Tuition Fee Batch B607                300"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -219,6 +234,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_green_dark"
                 android:text="            Tuition Fee Batch B997                700"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -227,6 +243,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_green_light"
                 android:text="            Tuition Fee Batch B998                700"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TextView
@@ -235,6 +252,7 @@
                 android:layout_height="36dp"
                 android:background="@android:color/holo_orange_light"
                 android:text="            Tuition Fee Batch B999                700"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>

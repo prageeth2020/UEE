@@ -34,6 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="37dp"
                 android:text="      Select Teacher's ID"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <Spinner
@@ -72,13 +73,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="   Description" />
+                        android:text="   Description"
+                        android:textColor="@color/design_default_color_on_secondary"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Amount" />
+                        android:text="Amount"
+                        android:textColor="@color/design_default_color_on_secondary"
+                        android:textStyle="bold" />
                 </TableRow>
 
                 <TableRow

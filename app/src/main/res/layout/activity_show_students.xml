@@ -6,6 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".ShowStudents">
 
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="422dp"
+        android:layout_height="45dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center_horizontal"
+        android:text="Take Fees"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="350dp"
@@ -13,9 +31,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.054">
+        app:layout_constraintVertical_bias="0.123">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,6 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Select Batch"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <Spinner
@@ -48,6 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Select Month"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <Spinner
@@ -68,8 +89,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="350dp"
-        android:layout_height="290dp"
+        android:layout_width="348dp"
+        android:layout_height="259dp"
         android:orientation="vertical"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -96,6 +117,7 @@
                 android:layout_height="29dp"
                 android:layout_weight="1"
                 android:text="Student 001"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <RadioButton
@@ -124,6 +146,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Student 004"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <RadioButton
@@ -151,6 +174,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Student 009"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <RadioButton
@@ -179,6 +203,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Student 017"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <RadioButton
@@ -207,6 +232,7 @@
                 android:layout_height="29dp"
                 android:layout_weight="1"
                 android:text="Student 023"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <RadioButton
@@ -244,6 +270,7 @@
             android:background="@android:color/holo_green_light"
             android:onClick="showSubmitFees"
             android:text="Proceed"
+            android:textColor="@color/design_default_color_on_secondary"
             android:textStyle="bold" />
     </LinearLayout>
 

@@ -6,6 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".Reports">
 
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="422dp"
+        android:layout_height="45dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center_horizontal"
+        android:text="Reports"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <LinearLayout
         android:layout_width="172dp"
         android:layout_height="169dp"
@@ -29,7 +47,9 @@
             android:layout_height="wrap_content"
             android:background="@android:color/holo_green_light"
             android:onClick="showAttendanceReport"
-            android:text="Attendance" />
+            android:text="Attendance"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -55,7 +75,9 @@
             android:layout_height="wrap_content"
             android:background="@android:color/holo_purple"
             android:onClick="showFeesReport"
-            android:text="Fees" />
+            android:text="Fees"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -81,7 +103,9 @@
             android:layout_height="wrap_content"
             android:background="@android:color/holo_blue_bright"
             android:onClick="showIncomeReport"
-            android:text="Incomes" />
+            android:text="Incomes"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -107,6 +131,8 @@
             android:layout_height="wrap_content"
             android:background="@android:color/holo_red_light"
             android:onClick="showExpenseReport"
-            android:text="Expenses" />
+            android:text="Expenses"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textStyle="bold" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

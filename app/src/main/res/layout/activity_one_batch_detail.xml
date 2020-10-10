@@ -7,19 +7,38 @@
     tools:context=".OneBatchDetail">
 
     <TextView
+        android:id="@+id/textView49"
+        android:layout_width="422dp"
+        android:layout_height="45dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center_horizontal"
+        android:text="View Batch Details"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
         android:id="@+id/textView38"
         android:layout_width="157dp"
         android:layout_height="53dp"
         android:gravity="center"
         android:text="Batch 001"
+        android:textColor="@color/design_default_color_on_secondary"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227" />
+        app:layout_constraintVertical_bias="0.31" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -27,29 +46,31 @@
         android:layout_height="73dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.069"
+        app:layout_constraintVertical_bias="0.128"
         app:srcCompat="@mipmap/i13" />
 
     <LinearLayout
         android:id="@+id/linearLayout5"
-        android:layout_width="244dp"
-        android:layout_height="222dp"
+        android:layout_width="296dp"
+        android:layout_height="195dp"
+        android:background="@android:color/holo_blue_dark"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643">
+        app:layout_constraintVertical_bias="0.713">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Batch Name"
+            android:textColor="@color/design_default_color_on_secondary"
             android:textStyle="bold" />
 
         <TextView
@@ -63,6 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Teacher's Name"
+            android:textColor="@color/design_default_color_on_secondary"
             android:textStyle="bold" />
 
         <TextView
@@ -76,6 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Time"
+            android:textColor="@color/design_default_color_on_secondary"
             android:textStyle="bold" />
 
         <TextView

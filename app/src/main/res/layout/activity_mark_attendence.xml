@@ -33,6 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="37dp"
                 android:text="      Select Batch"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <Spinner
@@ -44,9 +45,10 @@
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="37dp"
-                android:text="      Admission Number"
                 android:paddingTop="20dp"
+                android:text="      Admission Number"
 
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <Spinner
@@ -64,7 +66,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/holo_orange_light"
-                android:text="OK"
+                android:text="Mark Attendance"
+                android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
 
             <TableLayout
@@ -90,13 +93,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="   Date" />
+                        android:text="   Date"
+                        android:textColor="@color/design_default_color_on_secondary"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Status" />
+                        android:text="Status"
+                        android:textColor="@color/design_default_color_on_secondary"
+                        android:textStyle="bold" />
                 </TableRow>
 
                 <TableRow
