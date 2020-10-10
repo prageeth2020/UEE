@@ -11,36 +11,35 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@mipmap/i99"
         tools:context=".MainActivity">
 
         <Button
             android:id="@+id/btnLog"
-            android:layout_width="165dp"
-            android:layout_height="54dp"
-            android:layout_marginTop="304dp"
-            android:background="@android:color/holo_orange_light"
-            android:onClick="showLogin"
+            android:layout_width="290dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="300dp"
+            android:background="@android:color/holo_green_light"
             android:text="Login"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.54"
+            app:layout_constraintHorizontal_bias="0.512"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/btnReg"
-            android:layout_width="162dp"
-            android:layout_height="52dp"
+            android:layout_width="290dp"
+            android:layout_height="55dp"
             android:background="@android:color/holo_blue_light"
-            android:onClick="showRegister"
             android:text="Register"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.539"
+            app:layout_constraintHorizontal_bias="0.518"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnLog"
-            app:layout_constraintVertical_bias="0.155" />
+            app:layout_constraintVertical_bias="0.147" />
 
         <ImageView
             android:id="@+id/imageView"
