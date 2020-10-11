@@ -26,6 +26,8 @@ public class ReportAttendance extends AppCompatActivity {
         button16 = findViewById(R.id.button16);
         linearLayout3 = findViewById(R.id.tableLayout);
 
+        linearLayout3.setVisibility(View.GONE);
+
         button16.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if(linearLayout3.getVisibility()==View.VISIBLE){
@@ -41,7 +43,7 @@ public class ReportAttendance extends AppCompatActivity {
 
         spinner1 = (Spinner) findViewById(R.id.spinner1);
         List<String> list = new ArrayList<String>();
-        list.add("");
+        list.add("--Selecte The Batch--");
         list.add("   B001");
         list.add("   B002");
         list.add("   B003");

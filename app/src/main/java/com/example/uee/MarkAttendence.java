@@ -8,22 +8,33 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.widget.TableLayout;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MarkAttendence extends AppCompatActivity {
     private Spinner spinner1, spinner2;
-    LinearLayout linearLayout3;
-    Button button16;
+    Button btn1;
+    TableLayout tbl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mark_attendence);
 
+        tbl = findViewById(R.id.tableLayout);
+        btn1 = findViewById(R.id.button);
+
         addItemsOnSpinner1();
         addItemsOnSpinner2();
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tbl.setVisibility(View.VISIBLE);
+            }
+        });
     }
 
     public void addItemsOnSpinner1() {

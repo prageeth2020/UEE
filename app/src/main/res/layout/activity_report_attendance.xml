@@ -4,21 +4,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16sp"
     android:scrollbarSize="10sp"
     tools:context=".ShowStudents">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="10000dp"
-        android:orientation="vertical"
-        android:padding="8dp"
-        android:gravity="center_horizontal">
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_orange_light"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="Attendence Report"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/layout1"
-            android:layout_width="350dp"
-            android:layout_height="1000dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
             android:orientation="vertical"
             android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -33,23 +50,25 @@
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="37dp"
-                android:text="      Select Batch"
-                android:textColor="@color/design_default_color_on_secondary"
-                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="Select Batch"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
                 android:textStyle="bold" />
 
             <Spinner
                 android:id="@+id/spinner1"
                 android:layout_width="match_parent"
-                android:layout_height="36dp" />
+                android:layout_height="50dp" />
 
             <TextView
                 android:id="@+id/textView28"
                 android:layout_width="match_parent"
                 android:layout_height="46dp"
-                android:text="      Select Date"
-                android:textColor="@color/design_default_color_on_secondary"
-                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="Select Date"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
                 android:textStyle="bold" />
 
             <CalendarView
@@ -61,7 +80,10 @@
                 android:id="@+id/button16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@android:color/holo_orange_light"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/button_yellow"
                 android:text="Show Attendance"
                 android:textColor="@color/design_default_color_on_secondary"
                 android:textStyle="bold" />
@@ -70,10 +92,11 @@
                 android:id="@+id/tableLayout"
                 android:layout_width="373dp"
                 android:layout_height="500dp"
+                android:layout_gravity="center"
                 android:paddingLeft="10dp"
                 android:paddingTop="20dp"
                 android:paddingRight="10dp"
-                android:visibility="gone"
+                android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.578"
@@ -239,6 +262,7 @@
                         android:layout_weight="1"
                         android:text="0" />
                 </TableRow>
+
                 <TableRow
                     android:background="#DAE8FC"
                     android:padding="5dp">
@@ -255,6 +279,7 @@
                         android:layout_weight="1"
                         android:text="0" />
                 </TableRow>
+
                 <TableRow
                     android:background="#DAE8FC"
                     android:padding="5dp">
@@ -271,6 +296,7 @@
                         android:layout_weight="1"
                         android:text="1" />
                 </TableRow>
+
                 <TableRow
                     android:background="#DAE8FC"
                     android:padding="5dp">
@@ -287,6 +313,7 @@
                         android:layout_weight="1"
                         android:text="1" />
                 </TableRow>
+
                 <TableRow
                     android:background="#DAE8FC"
                     android:padding="5dp">
@@ -303,6 +330,7 @@
                         android:layout_weight="1"
                         android:text="0" />
                 </TableRow>
+
                 <TableRow
                     android:background="#DAE8FC"
                     android:padding="5dp">
