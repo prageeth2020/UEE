@@ -116,7 +116,7 @@
                 android:layout_width="330dp"
                 android:layout_height="45dp"
                 android:layout_marginTop="60dp"
-                android:background="@drawable/buttn_blue"
+                android:background="@drawable/button_yellow"
                 android:text="Register"
                 android:textSize="18sp"
                 android:textStyle="bold"
