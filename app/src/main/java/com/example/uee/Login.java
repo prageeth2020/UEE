@@ -9,9 +9,11 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class Login extends AppCompatActivity {
 
-    Button buttonLogin;
+    FloatingActionButton buttonLogin;
     TextView linkRegister,linkForgot;
 
     @Override
