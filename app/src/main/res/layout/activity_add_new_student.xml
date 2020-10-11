@@ -10,6 +10,7 @@
         android:id="@+id/textView39"
         android:layout_width="422dp"
         android:layout_height="45dp"
+        android:background="@android:color/holo_orange_light"
         android:gravity="center_horizontal"
         android:text="Add New Student"
         android:textAlignment="center"

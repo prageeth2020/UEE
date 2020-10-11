@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void showMarkAttendance(View v){
         Intent i = new Intent(this,MarkAttendence.class);
+        startActivity(i);
+    }
+
+    public void showLogout(View v){
+        Toast.makeText(this,"Logout from the application Successfully!",Toast.LENGTH_LONG).show();
+        Intent i = new Intent(this,StartScreen.class);
         startActivity(i);
     }
 }
