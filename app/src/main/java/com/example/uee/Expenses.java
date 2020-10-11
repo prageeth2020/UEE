@@ -30,8 +30,10 @@ public class Expenses extends AppCompatActivity {
             public void onClick(View v) {
                 if(linearLayout3.getVisibility()==View.VISIBLE){
                     linearLayout3.setVisibility(View.GONE);
+                    button16.setText("Show Expenses");
                 }else{
                     linearLayout3.setVisibility(View.VISIBLE);
+                    button16.setText("Clear");
                 }
             }
         });

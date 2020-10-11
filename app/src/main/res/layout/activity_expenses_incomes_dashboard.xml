@@ -45,7 +45,7 @@
             android:id="@+id/button10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_red_light"
+            android:background="@drawable/button_red"
             android:onClick="showExpenses"
             android:text="Expenses"
             android:textStyle="bold" />
@@ -71,7 +71,7 @@
             android:id="@+id/button11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_green_dark"
+            android:background="@drawable/button_green"
             android:onClick="showIncomes"
             android:text="Incomes"
             android:textStyle="bold" />

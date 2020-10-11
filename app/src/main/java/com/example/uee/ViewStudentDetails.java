@@ -20,6 +20,11 @@ public class ViewStudentDetails extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void editStudent(View v){
+        Intent i = new Intent(this,EditStudentDetails.class);
+        startActivity(i);
+    }
+
     public void deleteStudent(View v){
         Toast.makeText(this, "Student Details Deleted Successfully", Toast.LENGTH_LONG).show();
         Intent i = new Intent(this,AddNewStudent.class);

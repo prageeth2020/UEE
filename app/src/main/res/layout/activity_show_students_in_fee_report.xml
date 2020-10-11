@@ -82,7 +82,7 @@
             android:id="@+id/button16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_orange_light"
+            android:background="@drawable/button_yellow"
             android:text="Show Students"
             android:textColor="@color/design_default_color_on_secondary"
             android:textStyle="bold" />
@@ -268,7 +268,7 @@
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_green_light"
+            android:background="@drawable/button_green"
             android:onClick="showFeeReport"
             android:text="Show Report"
             android:textColor="@color/design_default_color_on_secondary"

@@ -27,7 +27,7 @@
             android:id="@+id/button27"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_blue_light"
+            android:background="@drawable/buttn_blue"
             android:onClick="showFeeReminder"
             android:text="Fee Reminder"
             android:textStyle="bold" />
@@ -55,7 +55,7 @@
             android:id="@+id/button25"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_orange_light"
+            android:background="@drawable/button_yellow"
             android:onClick="showStudents"
             android:text="Take Fees"
             android:textStyle="bold" />
@@ -81,7 +81,7 @@
             android:id="@+id/button26"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_red_light"
+            android:background="@drawable/button_red"
             android:onClick="showFeeReport"
             android:text="Fee Report"
             android:textStyle="bold" />

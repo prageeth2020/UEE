@@ -230,7 +230,7 @@
             android:layout_width="42dp"
             android:layout_height="37dp"
             android:layout_weight="1"
-            android:onClick="viewOneStudent"
+            android:onClick="editStudent"
             app:srcCompat="@mipmap/i3" />
 
         <ImageView

@@ -81,7 +81,7 @@
                     android:layout_height="75dp"
                     android:layout_marginStart="40dp"
                     android:layout_marginLeft="40dp"
-                    android:layout_marginTop="48dp"
+                    android:layout_marginTop="16dp"
                     android:orientation="vertical"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/btnLogin">
@@ -109,10 +109,10 @@
 
                 <Button
                     android:id="@+id/btnLogin"
-                    android:layout_width="299dp"
-                    android:layout_height="58dp"
+                    android:layout_width="320dp"
+                    android:layout_height="45dp"
                     android:layout_marginTop="148dp"
-                    android:background="@android:color/holo_orange_light"
+                    android:background="@drawable/button_yellow"
                     android:onClick="displaySuccess"
                     android:text="Login"
                     android:textSize="14sp"
