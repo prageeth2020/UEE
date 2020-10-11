@@ -6,23 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".AddNewBatch">
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="422dp"
-        android:layout_height="45dp"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         android:background="@android:color/holo_orange_light"
-        android:gravity="center_horizontal"
-        android:text="Add New Batch"
-        android:textAlignment="center"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="422dp"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:text="Add New Batch"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView12"
