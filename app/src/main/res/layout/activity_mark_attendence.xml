@@ -44,7 +44,8 @@
                 android:layout_marginTop="10dp"
                 android:text="Your Batch"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:textStyle="bold"/>
 
             <Spinner
                 android:id="@+id/spinner1"
@@ -58,7 +59,8 @@
                 android:layout_marginTop="20dp"
                 android:text="Your Index Number"
                 android:textColor="@color/black"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:textStyle="bold"/>
 
             <Spinner
                 android:id="@+id/spinner2"
@@ -90,7 +92,7 @@
         <TableLayout
             android:id="@+id/tableLayout"
             android:layout_width="373dp"
-            android:layout_height="500dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:paddingLeft="10dp"
             android:paddingTop="30dp"

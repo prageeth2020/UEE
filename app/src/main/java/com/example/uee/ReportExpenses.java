@@ -41,7 +41,7 @@ public class ReportExpenses extends AppCompatActivity {
 
         spinner1 = (Spinner) findViewById(R.id.spinner1);
         List<String> list = new ArrayList<String>();
-        list.add("");
+        list.add("--Select Techer's ID--");
         list.add("   T001");
         list.add("   T002");
         list.add("   T003");

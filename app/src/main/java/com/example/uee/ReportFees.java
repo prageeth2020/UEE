@@ -40,7 +40,7 @@ public class ReportFees extends AppCompatActivity {
 
         spinner1 = (Spinner) findViewById(R.id.spinner1);
         List<String> list = new ArrayList<String>();
-        list.add("");
+        list.add("--Select Batch ID--");
         list.add("   B001");
         list.add("   B002");
         list.add("   B003");
