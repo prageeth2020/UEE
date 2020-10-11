@@ -21,33 +21,22 @@ public class MarkAttendence extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mark_attendence);
+
         addItemsOnSpinner1();
         addItemsOnSpinner2();
-
-        button16 = findViewById(R.id.button16);
-        linearLayout3 = findViewById(R.id.tableLayout);
-
-        button16.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                if(linearLayout3.getVisibility()==View.VISIBLE){
-                    linearLayout3.setVisibility(View.GONE);
-                }else{
-                    linearLayout3.setVisibility(View.VISIBLE);
-                }
-            }
-        });
     }
 
     public void addItemsOnSpinner1() {
 
         spinner1 = (Spinner) findViewById(R.id.spinner1);
         List<String> list = new ArrayList<String>();
-        list.add("");
-        list.add("   Batch 1");
-        list.add("   Batch 2");
-        list.add("   Batch 3");
-        list.add("   Batch 4");
-        list.add("   Batch 5");
+        list.add("--Select Your Batch--");
+        list.add("   B001");
+        list.add("   B002");
+        list.add("   B003");
+        list.add("   B004");
+        list.add("   B005");
+        list.add("   B006");
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, list);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -58,12 +47,13 @@ public class MarkAttendence extends AppCompatActivity {
 
         spinner2 = (Spinner) findViewById(R.id.spinner2);
         List<String> list = new ArrayList<String>();
-        list.add("");
-        list.add("   S001");
-        list.add("   S002");
-        list.add("   S003");
-        list.add("   S004");
-        list.add("   S005");
+        list.add("--Select Your Index Number--");
+        list.add("   18569784");
+        list.add("   18568745");
+        list.add("   18569642");
+        list.add("   18567815");
+        list.add("   18561348");
+        list.add("   18565241");
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, list);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
